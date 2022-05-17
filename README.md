@@ -1,5 +1,5 @@
 # Poetry_app
-in this app data transaction is done through apis and stored into localhost server's database...
+in this app data transaction is done through Rest-apis and stored into localhost server's database...
 
 
 ![2022-05-17 (6)](https://user-images.githubusercontent.com/99630855/168746814-c4faf003-07cf-4902-8f7b-4e6d26cee4be.png)
