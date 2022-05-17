@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checkable="true"
+    android:clickable="true"
+    android:id="@+id/carditem"
+    android:focusable="true"
+    android:translationZ="@dimen/cardview_compat_inset_shadow"
+    android:layout_margin="10dp"
+
+    app:cardCornerRadius="4dp"
+    app:cardElevation="20dp"
+    app:strokeColor="#4E2222"
+    android:backgroundTint="#F8C2F5"
+
+    android:layout_gravity="center_horizontal"
+    app:strokeWidth="1dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+android:id="@+id/l_layout"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/poet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:gravity="center_horizontal"
+        android:text="Mirza Galib"
+        android:typeface="serif"
+        android:inputType="textNoSuggestions"
+        android:textColor="#3d3d3d"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="1dp"
+            android:typeface="monospace"
+        android:layout_margin="5dp"
+        android:text="kabhiu kabhi to ye khayal aye ki zindagi hai kabhi ji bhi liya karo...aur ye zindagi me time only importamnt for money"
+        android:textSize="20dp"
+        android:textColor="#3d3d3d"
+            android:inputType="textMultiLine"
+            android:minLines="2"
+        android:id="@+id/poetry"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginVertical="5dp"
+        android:gravity="end"
+        android:text="28-07-2002"
+        android:textColor="#000000"
+        android:textSize="19dp"
+         />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="11dp"
+            android:id="@+id/update_btn"
+            app:cornerRadius="100dp"
+            android:backgroundTint="@color/black"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginHorizontal="11dp"
+                android:layout_weight="1"
+                android:id="@+id/delete_btn"
+                app:cornerRadius="100dp"
+                android:backgroundTint="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
